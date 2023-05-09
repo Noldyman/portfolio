@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Source Code Pro&display=swap");
+$text-color: #25362a;
+$primary-color: #1e81b0;
+$secondary-color: #cc8020;
+$border-color: lighten(black, 50);
+$flex-gap: 10px;
+
+body {
+  margin: 0;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff4eb;
+  color: $text-color;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.menu {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: $flex-gap;
+  flex-wrap: wrap;
+}
+
+.content {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0px 20px;
+}
+
+.not-found {
+  text-align: center;
+}
+
+a {
+  color: $primary-color;
+}
+
+a:hover {
+  color: $secondary-color;
+}
+
+a.menu-item {
+  text-decoration: none;
+  color: $text-color;
+}
+
+a.menu-item:hover {
+  color: $secondary-color;
+}
+
+a.active {
+  font-weight: bold;
+  color: $primary-color;
+}

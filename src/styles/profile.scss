@@ -1,0 +1,15 @@
+@import "./global.scss";
+
+.face-and-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mugshot {
+  border-radius: 50%;
+  width: 100%;
+  max-width: 200px;
+  border: 2px solid $border-color;
+}
