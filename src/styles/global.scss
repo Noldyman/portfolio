@@ -18,7 +18,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
-.menu {
+.navigation {
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -44,12 +44,12 @@ a:hover {
   color: $secondary-color;
 }
 
-a.menu-item {
+a.navigation-item {
   text-decoration: none;
   color: $text-color;
 }
 
-a.menu-item:hover {
+a.navigation-item:hover {
   color: $secondary-color;
 }
 

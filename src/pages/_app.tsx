@@ -1,8 +1,8 @@
-import Menu from "@/components/menu";
 import "@/styles/global.scss";
 import "@/styles/profile.scss";
 import type { AppProps } from "next/app";
 import Head from "next/head";
+import Navigation from "@/components/navigation";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <title>Noud Verstijnen</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <Menu />
+      <Navigation />
       <div className="content">
         <Component {...pageProps} />
       </div>
