@@ -12,7 +12,9 @@ export default function Navigation() {
   return (
     <div className="navigation">
       {navigationItems.map((item) => {
-        const isActive = Boolean(pathname === item.path);
+        const isActive = Boolean(
+          pathname === item.path || (pathname?.includes("portfolio") && item.path === "/portfolio")
+        );
         return (
           <Link
             key={item.path}
