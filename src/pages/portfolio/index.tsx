@@ -14,8 +14,9 @@ export default function Portfolio() {
       <ul>
         {posts.map((post) => (
           <li key={post.postName}>
-            <strong>{post.title}</strong>
-            <p>{post.description}</p>
+            <p>
+              <strong>{post.title}</strong>: {post.description}
+            </p>
             <PostButtonGroup metaData={post} isListItem />
           </li>
         ))}
