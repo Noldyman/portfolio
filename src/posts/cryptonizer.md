@@ -9,6 +9,6 @@ The application does not have a graphical interface, but it runs in the console.
 
 If you want to decrypt the file, simply replace `-a enc` with `-a dec`. After entering the command, the terminal will ask you to enter an encryption key, as shown in the image below.
 
-![Cryptonizer image 1](/images/posts/cryptonizer.png)
+![Cryptonizer image 1](/images/posts/cryptonizer1.png)
 
 The application also returns error messages if, for example, the encryption key does not match or if the file you're trying to decrypt was never encrypted in the first place. Note that in this example, `cryptonize` is an alias defined in the ~/.zshrc file that runs the script.

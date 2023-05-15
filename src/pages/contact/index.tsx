@@ -1,26 +1,27 @@
+import { Button } from "@/components/button";
+
 export default function Contact() {
   const links = [
     { label: "LinkedIn", path: "https://www.linkedin.com/in/noud-verstijnen-311794b2/" },
-    { label: "GitGub (personal)", path: "https://github.com/Noldyman" },
-    { label: "GitGub (Symeres)", path: "https://github.com/NoudV" },
+    { label: "GitGub", path: "https://github.com/Noldyman" },
+    { label: "GitGub Symeres", path: "https://github.com/NoudV" },
   ];
 
   return (
     <>
       <h2>Contact</h2>
       <p>
-        Feel free to contact me via <a href="mailto:contact@noudverstijnen.nl">email</a>, or snoop
-        around on one of these platforms.
+        If you have any questions, don&apos;t hesitate to contact me. Feel free to send me an{" "}
+        <a href="mailto:contact@noudverstijnen.nl">email</a>, or snoop around on one of these
+        platforms.
       </p>
-      <ul>
+      <div className="button-group">
         {links.map((link) => (
-          <li key={link.path}>
-            <a href={link.path} target="_blank" rel="noreferrer">
-              {link.label}
-            </a>
-          </li>
+          <a key={link.path} href={link.path} target="_blank" rel="noreferrer">
+            <Button>{link.label}</Button>
+          </a>
         ))}
-      </ul>
+      </div>
     </>
   );
 }

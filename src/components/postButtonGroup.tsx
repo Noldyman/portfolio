@@ -11,12 +11,12 @@ export default function PostButtonGroup({ metaData, isListItem }: Props) {
   return (
     <div className="button-group">
       {isListItem ? (
-        <Link href={`portfolio/${metaData.postName}`}>
+        <Link href={`portfolio/${metaData.name}`}>
           <Button>Read more</Button>
         </Link>
       ) : (
         <Link href="/portfolio">
-          <Button>Go back</Button>
+          <Button>&lt;- Go back</Button>
         </Link>
       )}
       <Link href={metaData.gitHubPath} target="_blank">

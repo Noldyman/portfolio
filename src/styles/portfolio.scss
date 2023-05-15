@@ -1,0 +1,16 @@
+@import "./global.scss";
+
+.portfolio-posts {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: $flex-gap;
+
+  h3 {
+    margin: 0px;
+  }
+}
+
+.portfolio-post-preview {
+  padding: 0px 10px;
+}

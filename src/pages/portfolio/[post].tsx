@@ -13,6 +13,7 @@ export default function Post({ metaData, htmlContent }: Props) {
   return (
     <>
       <h2>{metaData.title}</h2>
+      <PostButtonGroup metaData={metaData} />
       <div className="post" dangerouslySetInnerHTML={{ __html: htmlContent }} />
       <PostButtonGroup metaData={metaData} />
     </>
@@ -28,7 +29,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 };
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-  const metaData = await posts.find((p) => p.postName === params?.post);
+  const metaData = await posts.find((p) => p.name === params?.post);
   const htmlContent = await getPost(params?.post as string);
   return {
     props: {

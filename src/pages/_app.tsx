@@ -1,5 +1,6 @@
 import "@/styles/global.scss";
 import "@/styles/profile.scss";
+import "@/styles/portfolio.scss";
 import type { AppProps } from "next/app";
 import Head from "next/head";
 import Navigation from "@/components/navigation";

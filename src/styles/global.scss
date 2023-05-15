@@ -4,6 +4,7 @@ $text-color: #25362a;
 $primary-color: #1e81b0;
 $secondary-color: #cc8020;
 $border-color: lighten(black, 50);
+$divider-color: rgba(black, 0.2);
 $flex-gap: 10px;
 
 body {
@@ -59,8 +60,9 @@ a.active {
   color: $primary-color;
 }
 
-ul {
-  list-style-type: "- ";
+hr {
+  margin: 1px;
+  border: 0.5px solid $divider-color;
 }
 
 button {
@@ -79,6 +81,7 @@ button:hover {
 .button-group {
   display: flex;
   gap: $flex-gap;
+  flex-wrap: wrap;
 }
 
 .post {
