@@ -1,9 +1,13 @@
 import PostButtonGroup from "@/components/postButtonGroup";
 import { PostMetaData } from "@/models/posts";
+import Head from "next/head";
 
 export default function Portfolio() {
   return (
     <>
+      <Head>
+        <title>Portfolio | Noud Verstijnen</title>
+      </Head>
       <h2>Portfolio</h2>
       <p>
         On this page, you&apos;ll find some of my programming projects. I included simple console

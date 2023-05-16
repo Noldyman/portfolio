@@ -2,10 +2,11 @@ import Link from "next/link";
 import differenceInYears from "date-fns/differenceInYears";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { vs2015 } from "react-syntax-highlighter/dist/esm/styles/hljs";
+import Head from "next/head";
 
 export default function Profile() {
   const currentAge = differenceInYears(new Date(), new Date("1993-12-22"));
-  const codeBlock = `const me = {
+  const code = `const me = {
     name: "Noud Verstijnen",
     age: ${currentAge},
     nickName: "Noldy",
@@ -18,6 +19,9 @@ export default function Profile() {
 
   return (
     <>
+      <Head>
+        <title>Profile | Noud Verstijnen</title>
+      </Head>
       <div className="face-and-name">
         <picture>
           <img className="mugshot" src="/images/mugshot.jpg" alt="mugshot" />
@@ -36,7 +40,7 @@ export default function Profile() {
       </p>
       {SyntaxHighlighter && (
         <SyntaxHighlighter className="code-block" language="javascript" style={vs2015}>
-          {codeBlock}
+          {code}
         </SyntaxHighlighter>
       )}
       <p>

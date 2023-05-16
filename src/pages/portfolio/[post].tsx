@@ -3,6 +3,7 @@ import { getAllPostIds, getPost } from "@/utils/posts";
 import { GetStaticPaths, GetStaticProps } from "next";
 import { PostMetaData } from "@/models/posts";
 import PostButtonGroup from "@/components/postButtonGroup";
+import Head from "next/head";
 
 interface Props {
   metaData: PostMetaData;
@@ -12,6 +13,9 @@ interface Props {
 export default function Post({ metaData, htmlContent }: Props) {
   return (
     <>
+      <Head>
+        <title>Portfolio | Noud Verstijnen</title>
+      </Head>
       <h2>{metaData.title}</h2>
       <PostButtonGroup metaData={metaData} />
       <div className="post" dangerouslySetInnerHTML={{ __html: htmlContent }} />

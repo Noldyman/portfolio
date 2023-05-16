@@ -1,4 +1,5 @@
 import { Button } from "@/components/button";
+import Head from "next/head";
 
 export default function Contact() {
   const links = [
@@ -9,6 +10,9 @@ export default function Contact() {
 
   return (
     <>
+      <Head>
+        <title>Contact | Noud Verstijnen</title>
+      </Head>
       <h2>Contact</h2>
       <p>
         If you have any questions, don&apos;t hesitate to contact me. Feel free to send me an{" "}
