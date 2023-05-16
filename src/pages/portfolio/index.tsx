@@ -8,7 +8,8 @@ export default function Portfolio() {
       <p>
         On this page, you&apos;ll find some of my programming projects. I included simple console
         applications and Arduino projects, but also more complex web applications. Some of these are
-        also in production. Take a look around and let me know what you think!
+        also in production. I have <i>not</i> included the projects that I collaborated on at work.
+        Take a look around and let me know what you think!
       </p>
       <div className="portfolio-posts">
         {posts.map((post, i) => (
@@ -28,9 +29,16 @@ export default function Portfolio() {
 
 export const posts: PostMetaData[] = [
   {
+    title: "Boerderij Bloem",
+    name: "boerderij-bloem",
+    description:
+      "Coming soon: a website with information about boerderij Bloem located in  Nijmegen noord.",
+    gitHubPath: "https://github.com/Noldyman/boerderij-bloem",
+  },
+  {
     title: "Sudoku",
     name: "sudoku",
-    description: "A state of the art Sudoku generator. You can finally play Sudoku on the web!",
+    description: "A Sudoku generator. You can finally play Sudoku on the web!",
     gitHubPath: "https://github.com/Noldyman/sudoku",
     websitePath: "https://superdoku.nl",
   },
@@ -45,7 +53,7 @@ export const posts: PostMetaData[] = [
   {
     title: "Climate sensor",
     name: "climate-sensor",
-    description: "A battery powered sensor that measures temperature and humidity.",
+    description: "A battery powered sensor that measures temperature and humidity in my apartment.",
     gitHubPath: "https://github.com/Noldyman/climate-sensor",
   },
   {
