@@ -32,13 +32,13 @@ export const posts: PostMetaData[] = [
     title: "Boerderij Bloem",
     name: "boerderij-bloem",
     description:
-      "Coming soon: a website with information about boerderij Bloem located in  Nijmegen noord.",
+      "Coming soon: a website with news and information about a small-scale organic farm located in  Nijmegen.",
     gitHubPath: "https://github.com/Noldyman/boerderij-bloem",
   },
   {
     title: "Sudoku",
     name: "sudoku",
-    description: "A Sudoku generator. You can finally play Sudoku on the web!",
+    description: "A Sudoku generator. Now you can finally play Sudoku on the web!",
     gitHubPath: "https://github.com/Noldyman/sudoku",
     websitePath: "https://superdoku.nl",
   },
@@ -60,7 +60,7 @@ export const posts: PostMetaData[] = [
     title: "Herb-O-Matic",
     name: "herb-o-matic",
     description:
-      "An automatic irrigation system for my precious herbs. My basil and parsley have never been better.",
+      "An automatic irrigation system for my herbs. My basil and parsley have never been better.",
     gitHubPath: "https://github.com/Noldyman/herb-o-matic",
   },
   {

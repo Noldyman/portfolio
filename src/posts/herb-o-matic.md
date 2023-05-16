@@ -1,4 +1,4 @@
-After years of inadvertently killing my basil plants, I came to the realization that the key to their survival was removing the one failing factor: me. That's why, with the help of a friend, I created the Herb-O-Matic. This is an automatic irrigation system designed to measure soil moisture and water the herbs if needed. Now, the only thing I need to worry about is refilling the water reservoir.
+After years of inadvertently killing my basil plants, I came to the realization that the key to their survival was removing the main destructive factor: me. That's why, with the help of a friend, I created the Herb-O-Matic. This is an automatic irrigation system designed to measure soil moisture and water the herbs if needed. Now, the only thing I need to worry about is refilling the water reservoir.
 
 ![Herb-O-Matic 1](/images/posts/herb-o-matic1.jpg)
 

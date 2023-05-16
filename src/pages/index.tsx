@@ -11,7 +11,7 @@ export default function Profile() {
     nickName: "Noldy",
     livingIn: "Nijmegen (NL)",
     sports: ["Climbing", "Bouldering", "Mountainbiking", "Running"],
-    hobbies: ["Board games", "Concerts", "Movies", "Cooking & fermenting"],
+    hobbies: ["Board games", "Concerts", "Movies", "Cooking & fermentation"],
     interests: ["Music", "Domotics", "Science", "Nature"],
     fanOf: ["The Big Lebowski", "Vulfpeck", "Rick & Morty"],
   }`;

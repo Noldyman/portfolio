@@ -6,7 +6,7 @@ For example, on the website, you can perform basic calculations with concentrati
 
 ![Chemprove 1](/images/posts/chemprove1.jpg)
 
-However, Chemprove becomes a lot more interesting when you use it to work out analyses. Note that the molecular structure of the molecules you synthesize cannot be seen by the naked eye, not even with a microscope. Therefore, all the products that you synthesize need to be analyzed. Often, you perform a variety of analyses to determine if the synthesis was successful or not.
+However, Chemprove becomes a lot more interesting when you use it to work out analyses. Note that the molecular structure of the molecules you synthesize cannot be seen by the naked eye, not even with a microscope. Therefore, all the products that you synthesize need to be analyzed with special equipment. Often, you perform a variety of analyses to determine if the synthesis was successful or not.
 
 When conducting these types of analyses, you often perform repetitive calculations or look up the same kind of data. Two very common analysis techniques are **NMR** and **LC-MS**. I created some handy tools for both of these techniques. For example, I made tools that help you identify impurities or calculate the purity of the product you synthesized.
 
