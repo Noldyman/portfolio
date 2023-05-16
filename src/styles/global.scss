@@ -83,22 +83,3 @@ button:hover {
   gap: $flex-gap;
   flex-wrap: wrap;
 }
-
-.post {
-  display: flex;
-  flex-direction: column;
-
-  img {
-    display: block;
-    margin: auto;
-    width: 100%;
-    max-width: 600px;
-  }
-
-  code {
-    background-color: darken(#fff4eb, 5);
-    padding: 5px;
-    border-radius: 5px;
-    line-height: 30px;
-  }
-}

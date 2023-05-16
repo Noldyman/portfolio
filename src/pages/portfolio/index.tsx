@@ -52,7 +52,7 @@ export const posts: PostMetaData[] = [
     title: "Herb-O-Matic",
     name: "herb-o-matic",
     description:
-      "An automatic watering system for my precious herbs. My basil and parsley have never been better.",
+      "An automatic irrigation system for my precious herbs. My basil and parsley have never been better.",
     gitHubPath: "https://github.com/Noldyman/herb-o-matic",
   },
   {
