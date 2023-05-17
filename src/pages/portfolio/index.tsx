@@ -18,7 +18,7 @@ export default function Portfolio() {
       <div className="portfolio-posts">
         {posts.map((post, i) => (
           <>
-            {i > 0 && <hr />}
+            {i > 0 && <hr key={i} />}
             <div className="portfolio-post-preview" key={post.name}>
               <h3>{post.title}</h3>
               <p>{post.description}</p>

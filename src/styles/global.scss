@@ -78,8 +78,23 @@ button:hover {
   color: $secondary-color;
 }
 
+button.highlighted {
+  font-weight: bold;
+  color: darken($primary-color, 10);
+}
+
+button.highlighted:hover {
+  font-weight: bold;
+  color: darken($secondary-color, 10);
+}
+
+button:disabled {
+  color: rgba(grey, 0.8);
+  cursor: default;
+}
+
 .button-group {
   display: flex;
-  gap: $flex-gap;
+  gap: 5px;
   flex-wrap: wrap;
 }

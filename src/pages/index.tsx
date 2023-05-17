@@ -1,7 +1,7 @@
 import Link from "next/link";
 import differenceInYears from "date-fns/differenceInYears";
 import SyntaxHighlighter from "react-syntax-highlighter";
-import { vs2015 } from "react-syntax-highlighter/dist/esm/styles/hljs";
+import { darcula } from "react-syntax-highlighter/dist/esm/styles/hljs";
 import Head from "next/head";
 
 export default function Profile() {
@@ -39,7 +39,7 @@ export default function Profile() {
         (web-)development. Let me introduce myself with this js object:
       </p>
       {SyntaxHighlighter && (
-        <SyntaxHighlighter className="code-block" language="javascript" style={vs2015}>
+        <SyntaxHighlighter style={darcula} className="code-block" language="javascript">
           {code}
         </SyntaxHighlighter>
       )}
