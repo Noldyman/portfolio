@@ -15,7 +15,7 @@ export default function Profile() {
     hobbies: ["Board games", "Concerts", "Movies", "Cooking & fermentation"],
     interests: ["Music", "Domotics", "Science", "Nature"],
     fanOf: ["The Big Lebowski", "Vulfpeck", "Rick & Morty"],
-  }`;
+  };`;
 
   return (
     <>
@@ -31,12 +31,14 @@ export default function Profile() {
       <h2>Profile</h2>
       <p>
         Welcome to my website!
-        <br /> I&apos;m a <b>JavaScript</b> developer who is transitioning from organic chemistry to
-        software development. Currently, I&apos;m mostly focused on the front-end, using{" "}
-        <b>React</b>, <b>TypeScript</b>, and <b>Next.js</b>. However, I&apos;ve also played around
-        with <b>Node.js</b>, <b>Express.js</b> and <b>MongoDB</b>. I&apos;m self-taught and eager to
-        learn. I would love to develop my skills further and expand my knowledge on all aspects of
-        (web-)development. Let me introduce myself with this js object:
+        <br /> I&apos;m a <b>JavaScript</b> developer who recently transitioned from organic
+        chemistry to software development. Currently, I&apos;m mostly focused on the front-end,
+        using <b>React</b>, <b>TypeScript</b>, and <b>Next.js</b>. However, I also have experience
+        with with <b>Node.js</b>, <b>Express.js</b> and <b>MongoDB</b>. I&apos;m self-taught and
+        eager to learn. I&apos;m dedicated to develop my skills further and expand my knowledge on
+        all aspects of (web-)development.
+        <br />
+        Let me introduce myself:
       </p>
       {SyntaxHighlighter && (
         <SyntaxHighlighter style={darcula} className="code-block" language="javascript">
@@ -44,8 +46,8 @@ export default function Profile() {
         </SyntaxHighlighter>
       )}
       <p>
-        On the <Link href="/portfolio">Portfolio</Link> page you&apos;ll find some of my recent
-        programming projects. If you have any further questions, don&apos;t hesitate to{" "}
+        On the <Link href="/portfolio">Portfolio</Link> page you&apos;ll find some of my programming
+        projects. If you have any further questions, don&apos;t hesitate to{" "}
         <Link href="/contact">contact</Link> me.
       </p>
     </>
