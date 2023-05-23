@@ -4,6 +4,7 @@ import "@/styles/portfolio.scss";
 import type { AppProps } from "next/app";
 import Head from "next/head";
 import Navigation from "@/components/navigation";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -16,6 +17,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <div className="content">
         <Component {...pageProps} />
       </div>
+      <Analytics />
     </>
   );
 }
