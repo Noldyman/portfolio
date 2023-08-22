@@ -31,12 +31,12 @@ export default function Profile() {
       <h2>Profile</h2>
       <p>
         Welcome to my website!
-        <br /> I&apos;m a <b>JavaScript</b> developer who recently transitioned from organic
-        chemistry to software development. Currently, I&apos;m mostly focused on the front-end,
-        using <b>React</b>, <b>TypeScript</b>, and <b>Next.js</b>. However, I also have experience
-        with with <b>Node.js</b>, <b>Express.js</b> and <b>MongoDB</b>. I&apos;m self-taught and
-        eager to learn. I&apos;m dedicated to develop my skills further and expand my knowledge on
-        all aspects of (web-)development.
+        <br /> I&apos;m a <b>webdeveloper</b> who recently transitioned from organic chemistry to
+        software development. Currently, I&apos;m mostly focused on the front-end, using{" "}
+        <b>React</b>, <b>TypeScript</b>, and <b>Next.js</b>. However, I also have experience with
+        back-end work using <b>Node.js</b> and <b>ASP.NET</b>. I&apos;m self-taught and eager to
+        learn. I&apos;m dedicated to develop my skills further and expand my knowledge on all
+        aspects of (web)development.
         <br />
         Let me introduce myself:
       </p>
