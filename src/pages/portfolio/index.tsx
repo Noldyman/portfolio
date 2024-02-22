@@ -33,13 +33,6 @@ export default function Portfolio() {
 
 export const posts: PostMetaData[] = [
   {
-    title: "Boerderij Bloem",
-    name: "boerderij-bloem",
-    description:
-      "Coming soon: a website with news and information about a small-scale organic farm located in  Nijmegen.",
-    gitHubPath: "https://github.com/Noldyman/boerderij-bloem",
-  },
-  {
     title: "Sudoku",
     name: "sudoku",
     description: "A Sudoku generator. Now you can finally play Sudoku on the web!",
